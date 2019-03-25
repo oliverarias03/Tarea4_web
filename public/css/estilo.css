@@ -1,0 +1,222 @@
+/*---------------------FONDOS--------------------------*/
+.contacto {
+  /*background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),url('/imgs/foto2.jpg');*/
+
+  height: 100vh;
+  /*ver toda la imagen*/
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.welcome {
+  /*colocar imagen*/
+  /*oscurecer imagen*/
+  /*background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgb(0, 0, 0, 0.7)),
+      to(rgb(0, 0, 0, 0.7))
+    ),
+    url(/imgs/foto7.jpg);
+
+  background-image: url(/imgs/foto7.jpg);*/
+  /*viewport  llenar toda la pantalla*/
+  height: 50vh;
+  /*ver toda la imagen*/
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.inicio {
+  /*background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 0, 0, 0.7)), to(rgb(0, 0, 0, 0.7))),
+    url(/imgs/foto5.jpg);
+  background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),
+    url(/imgs/foto5.jpg);*/
+  height: 100vh;
+  /*ver toda la imagen*/
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/*-----------------------------------------------------*/
+#concepto {
+  height: 100vh;
+
+  /*ver toda la imagen*/
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/*-----------------------------------------------------*/
+#historia {
+  /*background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 0, 0, 0.7)), to(rgb(0, 0, 0, 0.7))),
+    url(/imgs/court2.jpg);
+  background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),
+    url(/imgs/court2.jpg);*/
+
+  height: 100vh;
+  /*ver toda la imagen*/
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/*-----------------------------------------------------*/
+#nba {
+  /*background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 0, 0, 0.7)), to(rgb(0, 0, 0, 0.7))),
+    url(/imgs/court3.jpg);
+  background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),
+    url(/imgs/court3.jpg);*/
+
+  height: 125vh;
+  /*ver toda la imagen*/
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/*-----------------------------------------------------*/
+#imagenes {
+  background-color: #ebebe0;
+}
+
+/*********************FOOTER***********************/
+
+footer {
+  background-color: #333;
+  padding: 25px;
+  font-size: 80%;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+footer p {
+  margin-left: 40%;
+  color: #fff;
+  font-size: 140%;
+}
+.social-links {
+  margin-left: -3%;
+  list-style: none;
+  float: left;
+  font-size: 15px;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.social-links li:last-child {
+  margin-right: 0;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+  text-decoration: none;
+  border: 0;
+  color: #888;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+  font-size: 160%;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.ion-social-facebook:hover {
+  color: #3b5998;
+}
+
+.ion-social-twitter:hover {
+  color: #00aced;
+}
+
+.ion-social-googleplus:hover {
+  color: #dd4b39;
+}
+
+.ion-social-instagram:hover {
+  color: #517fa4;
+}
+
+.breadcrumb {
+  background-color: #333;
+  font-size: 125%;
+}
+/***----------------------------------------------------------*/
+blockquote {
+  padding: 2%;
+  font-style: italic;
+  line-height: 145%;
+  position: relative;
+}
+
+blockquote::before {
+  content: '\201C';
+  font-size: 400%;
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+.concepto-foto {
+  width: 30%;
+  height: auto;
+  margin-left: 35%;
+}
+/*------------------------HISTORIA FOTOS-----------------------*/
+.foto1 {
+  margin-left: 20%;
+}
+.foto2 {
+  height: 44%;
+  margin-left: 45%;
+  margin-top: -17%;
+}
+.foto3 {
+  height: 40%;
+  margin-top: -21%;
+  margin-left: 63%;
+}
+/*--------------------------NBA-----------------------------------*/
+.logo {
+  width: 2%;
+  height: auto;
+}
+.texto {
+  margin-top: -2%;
+}
+.list-group {
+  width: 35%;
+  margin-left: 32%;
+}
+.yoyo {
+  margin-top: -3%;
+}
+.logo1 {
+  width: 15%;
+  height: auto;
+}
+
+/*----------------------------WELCOME-------------*/
+.jumbotron {
+  width: 80%;
+  margin-left: 10%;
+}
